@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Regionalschmankerln</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_produkte">Produkte</string>
+    <string name="title_activity_informationen">Informationen</string>
+    <string name="title_activity_kontakt">Kontakt</string>
+    <string name="title_activity_partner">Partner</string>
+    <string name="title_activity_impressum">Impressum</string>
+    <string name="title_activity_agbs">AGBs</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_mein_profil">MeinProfil</string>
+    <string name="emtyString" />
+    <string name="title_activity_meine_produkte">MeineProdukte</string>
+</resources>
