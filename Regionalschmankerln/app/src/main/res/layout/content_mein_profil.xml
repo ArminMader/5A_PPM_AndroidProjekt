@@ -10,4 +10,16 @@
     tools:showIn="@layout/app_bar_mein_profil"
     tools:context="de.armin.android.regionalschmankerln.MeinProfil">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Hier sollen später Informationen zum eigenen Profil angezeigt und bearbeitet werden können."
+        android:id="@+id/textView8"
+        android:textAlignment="center"
+        android:textColor="#ff0000"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
 </RelativeLayout>

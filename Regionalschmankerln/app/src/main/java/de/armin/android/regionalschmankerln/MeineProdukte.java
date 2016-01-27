@@ -1,5 +1,6 @@
 package de.armin.android.regionalschmankerln;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -70,22 +71,52 @@ public class MeineProdukte extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camara) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        if (id == R.id.nav_Angemeldetstartseite) {
+            Intent i = new Intent(this, AngemeldetStartseite.class);
+            startActivity(i);
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_Angemeldetprodukte) {
+            Intent i = new Intent(this, AngemeldetProdukte.class);
+            startActivity(i);
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_Angemeldetinformationen) {
+            Intent i = new Intent(this, AngemeldetInformationen.class);
+            startActivity(i);
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.nav_Angemeldetkontakt) {
+            Intent i = new Intent(this, AngemeldetKontakt.class);
+            startActivity(i);
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.nav_Angemeldetpartner) {
+            Intent i = new Intent(this, AngemeldetPartner.class);
+            startActivity(i);
+
+        } else if (id == R.id.nav_meinprofil) {
+            Intent i = new Intent(this, MeinProfil.class);
+            startActivity(i);
+
+        } else if (id == R.id.nav_meineprodukte) {
+            Intent i = new Intent(this, MeineProdukte.class);
+            startActivity(i);
+
+        } else if (id == R.id.nav_Angemeldetimpressum) {
+            Intent i = new Intent(this, AngemeldetImpressum.class);
+            startActivity(i);
+
+        } else if (id == R.id.nav_Angemeldetagbs) {
+            Intent i = new Intent(this, AngemeldetAGBs.class);
+            startActivity(i);
 
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    public void clickabmelden(View view)
+    {
+        Intent i = new Intent(this, MainActivity.class);
+        startActivity(i);
     }
 }

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_angemeldetStartseite"
+            android:title="Startseite" />
+        <item android:id="@+id/nav_angemeldetProdukte"
+            android:title="Produkte" />
+        <item android:id="@+id/nav_angemeldetInformationen"
+            android:title="Informationen" />
+        <item android:id="@+id/nav_angemeldetKontakt"
+            android:title="Kontakt" />
+        <item android:id="@+id/nav_angemeldetPartner"
+            android:title="Partner" />
+    </group>
+
+
+
+    <item android:title="Mein Account">
+        <menu android:checkableBehavior="single">
+            <item android:id="@+id/nav_meinProfil"
+                android:title="Mein Profil" />
+            <item android:id="@+id/nav_meineProdukte"
+                android:title="Meine Produkte" />
+
+
+        </menu>
+    </item>
+
+</menu>

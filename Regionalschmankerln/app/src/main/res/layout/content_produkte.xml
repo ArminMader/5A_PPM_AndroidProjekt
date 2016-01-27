@@ -10,4 +10,9 @@
     tools:showIn="@layout/app_bar_produkte"
     tools:context="de.armin.android.regionalschmankerln.Produkte">
 
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/produktliste" />
+
 </RelativeLayout>

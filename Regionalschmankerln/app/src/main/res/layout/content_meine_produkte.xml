@@ -10,4 +10,16 @@
     tools:showIn="@layout/app_bar_meine_produkte"
     tools:context="de.armin.android.regionalschmankerln.MeineProdukte">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Hier sollen später die eigenen Produkte aufgelistet werden. Außerdem sollte man diese bearbeiten bzw. löschen können."
+        android:id="@+id/textView9"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:textColor="#ff0000"
+        android:textSize="30dp" />
 </RelativeLayout>

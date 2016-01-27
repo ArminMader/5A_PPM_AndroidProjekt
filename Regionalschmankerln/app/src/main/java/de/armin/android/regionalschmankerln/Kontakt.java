@@ -1,6 +1,7 @@
 package de.armin.android.regionalschmankerln;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -13,6 +14,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.webkit.WebView;
 
 public class Kontakt extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -34,6 +36,8 @@ public class Kontakt extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+
     }
 
     @Override
@@ -108,6 +112,44 @@ public class Kontakt extends AppCompatActivity
     public void click(View view)
     {
         Intent i = new Intent(this, Login.class);
+        startActivity(i);
+    }
+
+    public void clickanrufceline(View view)
+    {
+        Intent i = new Intent();
+        i.setAction(Intent.ACTION_DIAL);
+        i.setData(Uri.parse("tel:+436649268227"));
+        startActivity(i);
+    }
+
+    public void clickanrufarmin(View view)
+    {
+        Intent i = new Intent();
+        i.setAction(Intent.ACTION_DIAL);
+        i.setData(Uri.parse("tel:+4369910371316"));
+        startActivity(i);
+    }
+
+    public void clickemailceline(View view)
+    {
+        Intent i = new Intent(Intent.ACTION_SENDTO);
+        i.setType("text/plain");
+        i.putExtra(Intent.EXTRA_SUBJECT, "Kontaktanfrage Regionalschmankerln");
+        i.putExtra(Intent.EXTRA_TEXT, "Sehr geehrte Frau Lechner!");
+        i.setData(Uri.parse("mailto:lechner-celine@hotmail.com"));
+        i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(i);
+    }
+
+    public void clickemailarmin(View view)
+    {
+        Intent i = new Intent(Intent.ACTION_SENDTO);
+        i.setType("text/plain");
+        i.putExtra(Intent.EXTRA_SUBJECT, "Kontaktanfrage Regionalschmankerln");
+        i.putExtra(Intent.EXTRA_TEXT, "Sehr geehrter Herr Mader!");
+        i.setData(Uri.parse("mailto:armin.mader.27@gmail.com"));
+        i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(i);
     }
 }

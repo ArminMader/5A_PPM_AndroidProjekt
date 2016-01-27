@@ -4,15 +4,240 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="action_settings">Settings</string>
+
     <string name="title_activity_produkte">Produkte</string>
+
     <string name="title_activity_informationen">Informationen</string>
+    <string name="informationen_1">
+
+        Eine Region bezeichnet ein Gebiet, welches sich klar und eindeutig durch politisch administrative Grenzen (z.B. Bundesländer, Regierungsbezirke, Landkreise)
+        oder durch bestimmte Merkmale (z.B. Klima, wirtschaftliche Struktur) gekennzeichneter räumlicher Bereiche abgrenzen lässt. Eine Region ist prinzipiell kleiner als ein Staat,
+        sie kann jedoch Staats- oder Ländergrenzen überschreiten. \n
+        Für die Datenbank regionaler Produkte wird als Region der klar abgegrenzte Verwaltungsbezirk Kufstein des österreichischen Bundeslandes Tirol gewählt.
+        Dazu zählen alle in folgender Abbildung aufgeführten Gemeinden, die sich innerhalb der Region befinden.
+
+    </string>
+    <string name="informationen_2">
+
+        Um zu definieren, welche Produkte als regionales Produkt bezeichnet werden dürfen, werden diese in die vier Kategorien Rohprodukte, verarbeitete Rohprodukte,
+        zusammengesetzte Produkte und Getränke eingeteilt. Diese Kategorien werden teilweise in weitere Unterkategorien aufgeteilt, um wirklich jedes Produkt einer Kategorie klar
+        zuweisen zu können. Für die einzelnen Kategorien werden Regeln aufgestellt, welche Produkte erfüllen müssen, um als regionales Produkt in der Datenbank für regionale Produkte
+        aufgenommen zu werden.
+
+    </string>
+    <string name="informationen_3">
+
+        Rohprodukte sind Produkte, welche im Wesentlichen nur aus einer Zutat bestehen.
+
+    </string>
+    <string name="informationen_4">
+
+        Gemüse, welches als Rohprodukt vermarktet wird, muss immer zu 100% in dem zuvor definiertem Gebiet angebaut und geerntet werden. Auch Pilzkulturen müssen zu 100 Prozent
+        in der definierten Region gesät, aufgezüchtet und geerntet werden. Bei Pilzen, die in Zuchthäusern oder Gewächshäusern gezüchtet werden, darf sich dieses nicht außerhalb der Region befinden.
+
+    </string>
+    <string name="informationen_5">
+
+        Obst und Beeren gelten nur als regionale Produkte, wenn sie in der definierten region produziert werden. \n
+        <u>Beispiele für Obst: \n</u>
+        &#x2022; Äpfel \n
+        &#x2022; Birnen \n
+        &#x2022; Marillen \n\n
+
+        <u>Beispiele für Beeren: \n</u>
+        &#x2022; Himbeeren \n
+        &#x2022; Erdbeeren \n
+        &#x2022; Blaubeeren
+
+    </string>
+    <string name="informationen_6">
+
+        Für die Fleischgewinnung dürfen nur Tiere verarbeitet werden, welche in der Region geboren sind und eine gewisse Zeitspanne in dem Gebiet gelebt haben.
+        Die Schlachtung und Verarbeitung muss in dieser Region erfolgen. Wie lange diese Zeitspanne bei den Tieren ist, sieht man in folgenden Punkten: \n\n
+
+        &#x2022; <u>Schweine, Rinder &amp; Kälber, Schafe &amp; Ziegen sowie Geflügel:\n</u>
+        Diese Tiere müssen mindestens die Hälfte der Mastdauer bis zu ihrer Schlachtung in der definierten Region leben.\n\n
+
+        &#x2022; <u>Fische:\n</u>
+        Bei Fischen muss unterschieden werden, ob sie aus einem Zuchtbetrieb kommen oder aus der freien Wildbahn gefischt werden. Bei Fischen aus einem Zuchtbetrieb muss sich der Betrieb
+        innerhalb der Region befinden und die Fische müssen von Geburt an in diesem Betrieb leben. Da bei Fischen in wilden Gewässern nicht nachvollziehbar ist, woher sie tatsächlich stammen
+        (z.B. bei Flüssen die regionenübergreifend verlaufen) ist nur entscheidend, dass sich die Angelstelle innerhalb der Region befindet.\n\n
+
+        &#x2022; <u>Wild:\n</u>
+        Da es nicht direkt nachvollziehbar ist, aus welchem Gebiet das Wild kommt, ist entscheidend in welchem Jagdrevier es erlegt wird. Das Jagdrevier muss sich dabei innerhalb der definierten Region befinden.\n
+
+    </string>
+    <string name="informationen_7">
+
+        Damit die Kräuter regional sind, müssen sie in der definierten Region angebaut und geerntet werden.
+
+    </string>
+    <string name="informationen_8">
+
+        In diese Kategorie fallen alle Produkte, die nur aus einer Zutat bestehen und keine der oben genannten Kategorien zugeteilt werden kann z.B.: Nüsse, Eier usw.
+
+    </string>
+    <string name="informationen_9">
+
+        Verarbeitete Produkte sind Rohprodukte, welche durch einen Verarbeitungsschritt entstehen. Das fertige Produkt besteht jedoch nach wie vor nur aus einer einzigen Zutat.
+        Die Zutat, aus welcher das jeweilige Produkt entsteht, muss zu 100% aus der definierten Region stammen. Auch der Betrieb, welcher die Zutaten weiterverarbeitet,
+        muss in der Region beheimatet sein.\n\n
+
+        <u>Beispiele für verarbeitete Rohprodukte:\n</u>
+        &#x2022; Essig &amp; Öle\n
+        &#x2022; Gewürze\n
+        &#x2022; Mehle\n\n
+
+        <u>Spezialfälle für verarbeitete Rohprodukte:\n</u>
+        &#x2022; Honig\n
+        Bei Honig kann nicht festgestellt werden, woher die Bienen ihren Nektar für die Honigwaben sammeln. Deshalb ist entscheidend,
+        dass sich der Standort der Imkerei in der vorgegebenen Region befindet.
+
+    </string>
+    <string name="informationen_10">
+
+        Zusammengesetzte Produkte sind Produkte, welche aus mehreren Zutaten bestehen. Es müssen mindestens 50% der verwendeten Zutaten nachvollziehbar aus der vorgegebenen Region stammen oder die 3 wesentlichen
+        Hauptzutaten zu 100 Prozent aus der Region sein. Wesentliche Hauptzutaten sind die Zutaten, welche den größten Anteil des Produktes ausmachen (z.B.: Früchte in Marmelade). Nicht dazu zählen Zutaten wie Wasser, Zucker
+        und künstliche Aromen, auch wenn diese in manchen Produkten den größten Anteil ausmachen.\n\n
+
+        <u>Beispiele für zusammengesetzte Produkte:\n</u>
+        &#x2022; Marmelade\n
+        &#x2022; Milchprodukte\n
+        &#x2022; Fleischerzeugnisse und Wurstwaren\n
+        &#x2022; Fischerzeugnisse\n\n
+
+        <u>Spezialfälle für zusammengesetzte Produkte:\n</u>
+        &#x2022; Backwaren:\n
+        Backwaren sind ein Ausnahmefall, da die Zutaten für diese Produkte nicht aus der Region kommen können. Entscheidend ist allerdings, dass die Bäckerei, welche die Zutaten weiterverarbeitet,
+        ihren Standort in der festgelegten Region hat.\n
+
+    </string>
+    <string name="informationen_11">
+
+        Der Begriff Getränke ist eine Sammelbezeichnung für flüssige Lebensmittel, die zum Trinken aufbereitet oder zubereitet ist.
+        Wobei Milch nicht zu den Getränken zählt, sondern zur Nährflüssigkeit.
+
+    </string>
+    <string name="informationen_12">
+
+        Bei Säften müssen die wesentlichen Hauptzutaten zu 100 Prozent aus der entsprechenden Region stammen. Die wesentlichen Zutaten entsprechen jenen,
+        welche als Geschmacksrichtung auf dem Etikett der jeweilige Flasche angegeben ist (z.B. Apfel in Apfelsaft). Wasser, Zucker und künstliche Zusatzstoffe gelten nicht als Hauptzutaten.
+        Der Herstellungsbetrieb der Säfte muss sich ebenfalls in der Region befinden.\n\n
+
+        <u>Beispiele für Säfte:\n</u>
+        &#x2022; Fruchtsäfte \n
+        &#x2022; Sirupe \n
+        &#x2022; Fruchtmolke
+
+    </string>
+    <string name="informationen_13">
+
+        Die jeweiligen Früchte und Nüsse für die Schnaps- bzw. Likörherstellung müssen aus der definierten Region stammen. Auch die jeweilige Brennerei,
+        in welcher die Spirituosen hergestellt werden, muss ihren Standort in der Region haben.
+
+    </string>
+    <string name="informationen_14">
+
+        Da es in der definierten Region die Zutaten, die für die Bierherstellung benötigt werden, nicht gibt, ist nur der Standort der Brauerei und der Brauvorgang entscheidend.
+        Das Bier muss in der Region gebraut und abgefüllt werden.
+
+    </string>
+    <string name="informationen_15">
+
+        Damit Tees als regionaler Tee zählen, müssen mindestens 50 Prozent der verwendeten Kräuter und Früchte aus der Region stammen.
+
+    </string>
+
     <string name="title_activity_kontakt">Kontakt</string>
     <string name="title_activity_partner">Partner</string>
+
     <string name="title_activity_impressum">Impressum</string>
+    <string name="impressum_1">
+        &#160;Armin Mader\n
+        Ausserdorf 137\n
+        6252 Breitenbach\n\n
+
+        Celine Lechner\n
+        Innsbruckerstr. 260\n
+        6108 Scharnitz
+    </string>
+    <string name="impressum_2">
+        Telefon: +43699 10371316\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; +43664 9268227\n
+        E-Mail: celine.armin@gmail.com\n
+        Internetadresse: http://www.regionalschmankerln.at
+    </string>
+    <string name="impressum_3">
+        <b>Haftung für Inhalte\n</b>
+        Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen.
+        Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als
+        Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit
+        hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch
+        erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.\n\n
+
+        <b>Haftung für Links\n</b>
+        Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen.
+        Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche
+        Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete
+        Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.\n\n
+
+        <b>Urheberrecht\n</b>
+        Die durch die Seitenbetreiber erstellten bzw. verwendeten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und
+        jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten,
+        nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte
+        Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen
+        werden wir derartige Inhalte umgehend entfernen.
+    </string>
+
+
+
     <string name="title_activity_agbs">AGBs</string>
     <string name="title_activity_login">Login</string>
-    <string name="title_activity_mein_profil">MeinProfil</string>
+    <string name="title_activity_mein_profil">Mein Profil</string>
     <string name="emtyString" />
-    <string name="title_activity_meine_produkte">MeineProdukte</string>
+    <string name="title_activity_meine_produkte">Meine Produkte</string>
+
+    <string name="title_activity_angemeldet_startseite">Startseite</string>
+    <string name="startseite_absatz1">
+
+        Wir, zwei SchülerInnen der HTL-Anichstraße, wollen im Zuge unserer Diplomarbeit die heimische Wirtschaft durch vermehrte Verwendung von regionalen Produkten stärken.
+
+    </string>
+    <string name="startseite_absatz2">
+
+        Die Diplomarbeit beschäftigt sich auch mit der Problematik, dass es keine gesetzliche Regelung gibt, was die Angabe “regional” auf Lebensmitteln eigentlich bedeutet.
+        Hersteller können den Begriff regional für sich selbst definieren. Manche meinen damit eine bestimmte Landschaft, andere ein Bundesland und Manche gar ein ganzes Land.
+        Für Verbraucher ist es daher oft nicht nachvollziehbar, woher ihre “regionalen” Produkte nun tatsächlich kommen. \n
+        Einen Lösungsansatz zu diesem Problem soll unsere Webseite bieten.
+
+    </string>
+    <string name="startseite_absatz3">
+
+        Regionalschmankerln.at ist eine Webseite, auf der Produzenten regionaler Produkte, Gastronomiebetriebe, aber auch Privathaushalte auf ihre Produkte aufmerksam machen können.
+        Die Regionalseite wird dadurch zur Drehscheibe zwischen den Erzeugern und den Konsumenten von Regionalprodukten und erleichtert, den direkten Kontakt herzustellen.
+
+    </string>
+    <string name="startseite_absatz4">
+
+        Für Verbraucher soll genau nachvollziehbar sein, woher sie ihre Produkte beziehen. Deshalb beschäftigten wir uns mit einer eindeutigen Definition der Region und stellten Kriterien auf,
+        welche Produzenten erfüllen müssen, um ihre Produkte anbieten zu dürfen. Als Region wurde der klar abgegrenzte Verwaltungsbezirk Kufstein des österreichischen Bundeslandes Tirol gewählt.
+        Weitere Informationen zu der Region und den Kriterien finden Sie im Navigationsmenü “Informationen”.
+
+    </string>
+    <string name="startseite_absatz5">
+
+        In erster Linie ermöglicht Regionalschmankerln.at einen höheren Kundenzuwachs für heimische Unternehmen und  Produzenten.
+        Die Produzenten und Konsumenten tragen dadurch zu einer Stärkung der heimischen Wirtschaft bei.
+        Laut einer Umfrage des Bundesministerium für Land- und Forstwirtschaft, Umwelt und Wasserwirtschaft wären 78% der Befragten damit einverstanden,
+        mehr für heimische Lebensmittel zu zahlen. Davon wären 60% bereit, bis zu 10% mehr zu bezahlen und 32% würden sogar bis zu 20% mehr für Lebensmittel ausgeben.
+        Berechnungen zufolge würde das eine BIP-Steigerung um 1,7 Milliarden Euro und 15.000 zusätzliche Arbeitsplätze bringen.
+
+    </string>
+
+    <string name="title_activity_angemeldet_produkte">Produkte</string>
+    <string name="title_activity_angemeldet_informationen">Informationen</string>
+    <string name="title_activity_angemeldet_kontakt">Kontakt</string>
+    <string name="title_activity_angemeldet_partner">Partner</string>
+    <string name="title_activity_angemeldet_impressum">Impressum</string>
+    <string name="title_activity_angemeldet_agbs">AGBs</string>
 </resources>

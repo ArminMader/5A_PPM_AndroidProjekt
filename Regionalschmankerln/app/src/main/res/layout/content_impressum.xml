@@ -10,4 +10,96 @@
     tools:showIn="@layout/app_bar_impressum"
     tools:context="de.armin.android.regionalschmankerln.Impressum">
 
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Impressum"
+                android:id="@+id/id_impressum1"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Offenlegung gemäß §25 Mediengesetz"
+                android:id="@+id/id_impressum2"
+                android:textSize="18dp"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/impressum_1"
+                android:id="@+id/id_impressum3"
+                android:textSize="12dp"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kontakt"
+                android:id="@+id/id_impressum4"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/impressum_2"
+                android:id="@+id/id_impressum5"
+                android:textSize="12dp"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Haftungsausschuss"
+                android:id="@+id/id_impressum6"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/impressum_3"
+                android:id="@+id/id_impressum7"
+                android:textSize="12dp"
+                android:layout_marginTop="10dp" />
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
 </RelativeLayout>

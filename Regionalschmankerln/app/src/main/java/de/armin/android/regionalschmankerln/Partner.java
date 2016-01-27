@@ -1,6 +1,7 @@
 package de.armin.android.regionalschmankerln;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -110,4 +111,23 @@ public class Partner extends AppCompatActivity
         Intent i = new Intent(this, Login.class);
         startActivity(i);
     }
+
+    public void clickhtllogo(View view)
+    {
+        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.htlinn.ac.at/"));
+        startActivity(i);
+    }
+
+    public void clickwklogo(View view)
+    {
+        Intent i = new  Intent(Intent.ACTION_VIEW, Uri.parse("https://www.wko.at/Content.Node/kufstein/Startseite_Bezirksstelle_Kufstein.html/"));
+        startActivity(i);
+    }
+
+    public void clicklklogo(View view)
+    {
+        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://tirol.lko.at/"));
+        startActivity(i);
+    }
+
 }

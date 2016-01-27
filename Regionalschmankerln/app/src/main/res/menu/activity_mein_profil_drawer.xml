@@ -2,22 +2,38 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <group android:checkableBehavior="single">
-        <item android:id="@+id/nav_camara" android:icon="@android:drawable/ic_menu_camera"
-            android:title="Import" />
-        <item android:id="@+id/nav_gallery" android:icon="@android:drawable/ic_menu_gallery"
-            android:title="Gallery" />
-        <item android:id="@+id/nav_slideshow" android:icon="@android:drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
-        <item android:id="@+id/nav_manage" android:icon="@android:drawable/ic_menu_manage"
-            android:title="Tools" />
-    </group>
+    <item android:id="@+id/nav_Angemeldetstartseite"
+        android:title="Startseite" />
+    <item android:id="@+id/nav_Angemeldetprodukte"
+        android:title="Produkte" />
+    <item android:id="@+id/nav_Angemeldetinformationen"
+        android:title="Informationen" />
+    <item android:id="@+id/nav_Angemeldetkontakt"
+        android:title="Kontakt" />
+    <item android:id="@+id/nav_Angemeldetpartner"
+        android:title="Partner" />
+</group>
 
-    <item android:title="Communicate">
-        <menu>
-            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
-                android:title="Share" />
-            <item android:id="@+id/nav_send" android:icon="@android:drawable/ic_menu_send"
-                android:title="Send" />
+
+    <item android:title="Mein Account">
+        <menu android:checkableBehavior="single">
+            <item android:id="@+id/nav_meinprofil"
+                android:title="Mein Profil" />
+            <item android:id="@+id/nav_meineprodukte"
+                android:title="Meine Produkte" />
+
+
+        </menu>
+    </item>
+
+    <item android:title="Rechtliches">
+        <menu android:checkableBehavior="single">
+            <item android:id="@+id/nav_Angemeldetimpressum"
+                android:title="Impressum" />
+            <item android:id="@+id/nav_Angemeldetagbs"
+                android:title="AGBs" />
+
+
         </menu>
     </item>
 

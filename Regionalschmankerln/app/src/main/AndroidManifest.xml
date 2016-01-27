@@ -2,15 +2,17 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="de.armin.android.regionalschmankerln" >
 
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:icon="@drawable/icon"
+        android:label="Regional- Schmankerln"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name"
+            android:label="Regional- Schmankerln"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -61,6 +63,41 @@
         <activity
             android:name=".MeineProdukte"
             android:label="@string/title_activity_meine_produkte"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".AngemeldetStartseite"
+            android:label="@string/title_activity_angemeldet_startseite"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".AngemeldetProdukte"
+            android:label="@string/title_activity_angemeldet_produkte"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".AngemeldetInformationen"
+            android:label="@string/title_activity_angemeldet_informationen"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".AngemeldetKontakt"
+            android:label="@string/title_activity_angemeldet_kontakt"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".AngemeldetPartner"
+            android:label="@string/title_activity_angemeldet_partner"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".AngemeldetImpressum"
+            android:label="@string/title_activity_angemeldet_impressum"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".AngemeldetAGBs"
+            android:label="@string/title_activity_angemeldet_agbs"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
     </application>

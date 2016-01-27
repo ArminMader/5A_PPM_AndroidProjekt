@@ -13,9 +13,24 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.ListAdapter;
+import android.widget.ListView;
 
-public class Produkte extends AppCompatActivity
+import java.util.ArrayList;
+import java.util.List;
+
+public class Produkte<T> extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+
+    private String[] produkte = new String[]{"Salate", "Gemüse (roh)", "Gemüseprodukte", "Obst (roh)", "Obsterzeugnisse",
+            "Brot & Gebäck", "Kuchen & Süßes", "Pikante Backwaren", "Fleisch", "Fleischerzeugnisse", "Wurstwaren", "Fisch",
+            "Fischerzeugnisse", "Milcherzeugnisse", "Käse", "Butter", "Eier", "Nudeln", "Sonstige Teigwaren", "Tee", "Wasser",
+            "Säfte, Limunaden & sonstige Getränke", "Alkoholische Getränke", "Nüsse", "Kräuter", "Gewürze", "Öle & Fette",
+            "Süßwaren & Knabberartikel", "Honig"
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +49,18 @@ public class Produkte extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+
+        ListView lv = (ListView) findViewById(R.id.produktliste);
+
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, produkte);
+        lv.setAdapter(adapter);
+
+
+
     }
+
+
 
     @Override
     public void onBackPressed() {
